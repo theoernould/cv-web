@@ -1,0 +1,10 @@
+@import "variables";
+@import "bulma";
+
+#photo img {
+  border-radius:$card-radius;
+}
+
+.level-item img {
+  max-width:5%;
+}

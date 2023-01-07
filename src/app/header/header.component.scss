@@ -1,0 +1,11 @@
+@import "variables";
+
+.navbar-brand,.navbar-start {
+  font-family: 'Oswald', serif;
+}
+
+.my-name {
+  display:flex;
+  gap:5px;
+  font-size:1.5em;
+}

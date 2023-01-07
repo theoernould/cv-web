@@ -1,6 +1,9 @@
 @import "variables";
 
 .content {
-  background-color: $quaternary;
-  height:400px;
+  background-color:$footer-background-color;
+}
+
+.container {
+  padding-top: 80px;
 }

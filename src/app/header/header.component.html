@@ -1,1 +1,46 @@
-<p>header works!</p>
+<div class="content">
+  <div class="container">
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item my-name" routerLink="/">
+          <span>Théo</span>
+          <strong class="has-text-info">ERNOULD</strong>
+        </a>
+      </div>
+
+      <div class="navbar-menu ml-3">
+        <div class="navbar-start">
+          <a class="navbar-item" (click)="goToTarget('apropos')">
+            A propos de moi
+          </a>
+          <a class="navbar-item" (click)="goToTarget('reseaux')">
+            Réseaux
+          </a>
+          <a class="navbar-item" (click)="goToTarget('competences')">
+            Compétences
+          </a>
+          <a class="navbar-item" (click)="goToTarget('chronologie')">
+            Chronologie
+          </a>
+          <a class="navbar-item" (click)="goToTarget('projets')">
+            Projets
+          </a>
+          <a class="navbar-item" (click)="goToTarget('certifications')">
+            Certifications
+          </a>
+        </div>
+
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <div class="buttons">
+              <a class="button is-info" href="mailto: theoepro@gmail.com">
+                <strong>Me contacter</strong>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+</div>
