@@ -1,0 +1,17 @@
+@import "bulma";
+
+article {
+  display: grid;
+  grid-template-areas:
+    "a a a a"
+    "b b b b"
+    "c c c c";
+  grid-gap: 1rem;
+}
+
+.mobile-template article {
+  grid-template-areas:
+    "a a a"
+    "b b b"
+    "c c c";
+}

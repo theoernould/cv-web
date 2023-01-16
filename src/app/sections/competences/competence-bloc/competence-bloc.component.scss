@@ -1,0 +1,11 @@
+@import "bulma";
+@import "bulma-ribbon.sass";
+
+.image img {
+  max-height: 70px;
+}
+
+.level-item {
+  display:flex;
+  justify-content: space-around;
+}

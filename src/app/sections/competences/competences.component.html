@@ -1,3 +1,31 @@
-<section id="competences" class="section">
+<section id="competences" class="section" [class.mobile-template]="utils.isMobile">
   <h1 class="title">Compétences</h1>
+  <h2 class="subtitle mt-3">Langages</h2>
+  <article>
+    <app-competence-bloc title="Java" imageUrl="assets/logos/java.png"></app-competence-bloc>
+    <app-competence-bloc title="Javascript" imageUrl="assets/logos/js.png"></app-competence-bloc>
+    <app-competence-bloc title="Typescript" imageUrl="assets/logos/typescript.png"></app-competence-bloc>
+    <app-competence-bloc title="HTML" imageUrl="assets/logos/html.png"></app-competence-bloc>
+    <app-competence-bloc title="CSS" imageUrl="assets/logos/css.png"></app-competence-bloc>
+    <app-competence-bloc title="SCSS" imageUrl="assets/logos/sass.png"></app-competence-bloc>
+  </article>
+  <h2 class="subtitle mt-3">Frameworks</h2>
+  <article>
+    <app-competence-bloc title="Spring" imageUrl="assets/logos/spring-logo.png" ribbon="Back" ribbonColor="is-link"></app-competence-bloc>
+    <app-competence-bloc title="Angular" imageUrl="assets/logos/angular.png" ribbon="Front"></app-competence-bloc>
+    <app-competence-bloc title="Angular Material" imageUrl="assets/logos/angular_material.png" ribbon="Front"></app-competence-bloc>
+    <app-competence-bloc title="Bulma" imageUrl="assets/logos/bulma.png" ribbon="Front"></app-competence-bloc>
+  </article>
+  <h2 class="subtitle mt-3">Base de données</h2>
+  <article>
+    <app-competence-bloc title="MongoDB" imageUrl="assets/logos/mongodb.svg"></app-competence-bloc>
+    <app-competence-bloc title="Posgresql" imageUrl="assets/logos/posgresql.png"></app-competence-bloc>
+  </article>
+  <h2 class="subtitle mt-3">Outils</h2>
+  <article>
+    <app-competence-bloc title="Intellij" imageUrl="assets/logos/intellij.png"></app-competence-bloc>
+    <app-competence-bloc title="Jira" imageUrl="assets/logos/jira.png"></app-competence-bloc>
+    <app-competence-bloc title="Github" imageUrl="assets/logos/github.png"></app-competence-bloc>
+    <app-competence-bloc title="Gitlab" imageUrl="assets/logos/gitlab.png"></app-competence-bloc>
+  </article>
 </section>

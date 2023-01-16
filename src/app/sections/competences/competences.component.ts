@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {UtilsService} from "../../shared/utils.service";
 
 @Component({
   selector: 'app-competences',
@@ -6,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./competences.component.scss']
 })
 export class CompetencesComponent {
+  constructor(public utils: UtilsService) {
+  }
 
 }

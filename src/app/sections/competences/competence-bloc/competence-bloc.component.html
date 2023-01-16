@@ -1,0 +1,11 @@
+<div class="level-item has-text-centered card p-3" [class.has-ribbon]="ribbon">
+    <div *ngIf="ribbon" class="ribbon" [ngClass]="ribbonColor">{{ribbon}}</div>
+    <div class="card-image">
+        <figure class="image">
+            <img [src]="imageUrl">
+        </figure>
+    </div>
+    <div class="card-content" [class.mt-4]="ribbon">
+        <h1 class="has-text-weight-bold">{{title}}</h1>
+    </div>
+</div>
