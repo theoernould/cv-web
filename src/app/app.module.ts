@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { ContentComponent } from './content/content.component';
 import { FooterComponent } from './footer/footer.component';
-import { ReseauxComponent } from './sections/reseaux/reseaux.component';
 import { AProposComponent } from './sections/a-propos/a-propos.component';
 import { HistoriqueComponent } from './sections/historique/historique.component';
 import { ProjetsComponent } from './sections/projets/projets.component';
@@ -29,7 +28,6 @@ const routes: Routes = [
     HeaderComponent,
     ContentComponent,
     FooterComponent,
-    ReseauxComponent,
     AProposComponent,
     HistoriqueComponent,
     ProjetsComponent,

@@ -8,3 +8,15 @@
 .level-item img {
   max-width:5%;
 }
+
+.media-content {
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  align-items: center;
+}
+
+.media-content nav {
+  width:75%;
+  align-self: flex-end;
+}
