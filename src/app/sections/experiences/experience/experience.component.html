@@ -1,0 +1,28 @@
+<div class="level-item has-text-centered card p-3" [id]="experience.id">
+  <div class="card-content">
+    <h2 class="has-text-weight-bold">{{experience.poste}}</h2>
+    <h3 class="mt-0">{{experience.entreprise}}</h3>
+    <h4 class="is-italic">{{experience.dates}}</h4>
+    <p class="has-text-justified">
+      {{experience.description}}
+    </p>
+    <div class="technologies">
+      <div>
+        <span class="is-underlined">Langages :</span>
+        {{joinArray(experience.technologiesUsed.langages)}}
+      </div>
+      <div>
+        <span class="is-underlined">Frameworks :</span>
+        {{joinArray(experience.technologiesUsed.frameworks)}}
+      </div>
+      <div>
+        <span class="is-underlined">Outils :</span>
+        {{joinArray(experience.technologiesUsed.outils)}}
+      </div>
+      <div>
+        <span class="is-underlined">Editeurs de code :</span>
+        {{joinArray(experience.technologiesUsed.editeurs)}}
+      </div>
+    </div>
+  </div>
+</div>

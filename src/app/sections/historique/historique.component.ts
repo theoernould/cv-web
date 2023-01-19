@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {UtilsService} from "../../shared/utils.service";
 
 @Component({
   selector: 'app-historique',
@@ -6,5 +7,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./historique.component.scss']
 })
 export class HistoriqueComponent {
+
+  constructor(public utils: UtilsService) {
+  }
 
 }

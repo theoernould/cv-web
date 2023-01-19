@@ -1,0 +1,6 @@
+<section id="experiences" class="section" [class.mobile-template]="utils.isMobile">
+  <h1 class="title">Expériences</h1>
+  <article>
+    <app-experience *ngFor="let experience of experiences" [experience]="experience"></app-experience>
+  </article>
+</section>

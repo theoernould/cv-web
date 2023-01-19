@@ -10,19 +10,22 @@
 
       <div class="navbar-menu ml-3">
         <div class="navbar-start">
-          <a class="navbar-item" (click)="goToTarget('apropos')">
+          <a class="navbar-item" (click)="utils.goToTarget('apropos')">
             A propos de moi
           </a>
-          <a class="navbar-item" (click)="goToTarget('competences')">
+          <a class="navbar-item" (click)="utils.goToTarget('competences')">
             Compétences
           </a>
-          <a class="navbar-item" (click)="goToTarget('certifications')">
+          <a class="navbar-item" (click)="utils.goToTarget('certifications')">
             Certifications
           </a>
-          <a class="navbar-item" (click)="goToTarget('projets')">
+          <a class="navbar-item" (click)="utils.goToTarget('experiences')">
+            Expériences
+          </a>
+          <a class="navbar-item" (click)="utils.goToTarget('projets')">
             Projets
           </a>
-          <a class="navbar-item" (click)="goToTarget('chronologie')">
+          <a class="navbar-item" (click)="utils.goToTarget('chronologie')">
             Chronologie
           </a>
         </div>

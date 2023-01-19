@@ -17,6 +17,8 @@ import {MatSnackBarModule} from "@angular/material/snack-bar";
 import {MatButtonModule} from "@angular/material/button";
 import {RouterModule, Routes} from "@angular/router";
 import { CompetenceBlocComponent } from './sections/competences/competence-bloc/competence-bloc.component';
+import { ExperiencesComponent } from './sections/experiences/experiences.component';
+import { ExperienceComponent } from './sections/experiences/experience/experience.component';
 
 const routes: Routes = [
   { path: '', component: ContentComponent },
@@ -33,7 +35,9 @@ const routes: Routes = [
     ProjetsComponent,
     CertificationsComponent,
     CompetencesComponent,
-    CompetenceBlocComponent
+    CompetenceBlocComponent,
+    ExperiencesComponent,
+    ExperienceComponent
   ],
   imports: [
     BrowserModule,
