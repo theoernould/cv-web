@@ -7,19 +7,19 @@
       {{experience.description}}
     </p>
     <div class="technologies">
-      <div>
+      <div *ngIf="experience.technologiesUsed.langages">
         <span class="is-underlined">Langages :</span>
         {{joinArray(experience.technologiesUsed.langages)}}
       </div>
-      <div>
+      <div *ngIf="experience.technologiesUsed.frameworks">
         <span class="is-underlined">Frameworks :</span>
         {{joinArray(experience.technologiesUsed.frameworks)}}
       </div>
-      <div>
+      <div *ngIf="experience.technologiesUsed.outils">
         <span class="is-underlined">Outils :</span>
         {{joinArray(experience.technologiesUsed.outils)}}
       </div>
-      <div>
+      <div *ngIf="experience.technologiesUsed.editeurs">
         <span class="is-underlined">Editeurs de code :</span>
         {{joinArray(experience.technologiesUsed.editeurs)}}
       </div>

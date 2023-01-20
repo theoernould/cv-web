@@ -14,19 +14,19 @@
         {{projet.description}}
       </p>
       <div class="technologies">
-        <div>
+        <div *ngIf="projet.technologiesUsed.langages">
           <span class="is-underlined">Langages :</span>
           {{joinArray(projet.technologiesUsed.langages)}}
         </div>
-        <div>
+        <div *ngIf="projet.technologiesUsed.frameworks">
           <span class="is-underlined">Frameworks :</span>
           {{joinArray(projet.technologiesUsed.frameworks)}}
         </div>
-        <div>
+        <div *ngIf="projet.technologiesUsed.outils">
           <span class="is-underlined">Outils :</span>
           {{joinArray(projet.technologiesUsed.outils)}}
         </div>
-        <div>
+        <div *ngIf="projet.technologiesUsed.editeurs">
           <span class="is-underlined">Editeurs de code :</span>
           {{joinArray(projet.technologiesUsed.editeurs)}}
         </div>

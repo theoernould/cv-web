@@ -39,7 +39,7 @@ const routes: Routes = [
     CompetenceBlocComponent,
     ExperiencesComponent,
     ExperienceComponent,
-    ProjetComponent
+    ProjetComponent,
   ],
   imports: [
     BrowserModule,

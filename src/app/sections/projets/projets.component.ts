@@ -15,7 +15,7 @@ export class ProjetsComponent {
       description: 'Application de chat sécurisé avec chiffrement.',
       date: 'Mars 2022',
       technologiesUsed: {
-        langages: ['NodeJS', 'Javascript'],
+        langages: ['HTML', 'CSS', 'Javascript', 'NodeJS'],
         frameworks: ['ExpressJS', 'Socket.io'],
         outils: ['Git', 'npm'],
         editeurs: ['Intellij IDEA']
@@ -25,6 +25,12 @@ export class ProjetsComponent {
           nom: 'Projet Github',
           type: 'github',
           lien: 'https://github.com/theoernould/hermes-website',
+        },
+        {
+          nom: 'Compte-rendu',
+          type: 'download',
+          lien: 'assets/projets/compte-rendu.pdf',
+          downloadName: 'Compte-rendu.pdf'
         },
         {
           nom: 'Démonstration',
@@ -100,12 +106,72 @@ export class ProjetsComponent {
           nom: 'Projet Github',
           type: 'github',
           lien: 'https://github.com/theoernould/convertisseur-couleurs',
+        }
+      ]
+    },
+    {
+      id: 5,
+      titre: 'Bataille navale',
+      description: 'Le fameux jeu de stratégie recréé en site web dans le cadre de la matière Informatique et Science du Numérique (ISN) en classe Terminale',
+      date: 'Octobre 2019',
+      technologiesUsed: {
+        langages: ['HTML', 'CSS', 'Javascript', 'jQuery'],
+        editeurs: ['Visual Studio Code']
+      },
+      documents: [
+        {
+          nom: 'Projet Github',
+          type: 'github',
+          lien: 'https://github.com/theoernould/bataille-navale',
         },
         {
-          nom: 'Application',
-          type: 'download',
-          lien: '',
-          downloadName: ''
+          nom: 'Démo',
+          type: 'demo',
+          lien: 'https://theoernould.github.io/bataille-navale/',
+        }
+      ]
+    },
+    {
+      id: 6,
+      titre: 'Qui est-ce ?',
+      description: 'Le jeu iconique créé sous la forme d\'un site web dans le cadre de la matière Informatique et Science du Numérique (ISN) en classe de Terminale',
+      date: 'Octobre 2019',
+      technologiesUsed: {
+        langages: ['HTML', 'CSS', 'Javascript'],
+        editeurs: ['Visual Studio Code']
+      },
+      documents: [
+        {
+          nom: 'Projet Github',
+          type: 'github',
+          lien: 'https://github.com/theoernould/qui-est-ce',
+        },
+        {
+          nom: 'Démo',
+          type: 'demo',
+          lien: 'https://theoernould.github.io/qui-est-ce/',
+        }
+      ]
+    },
+    {
+      id: 7,
+      titre: 'Site TPE',
+      description: 'Site web réalisé dans le cadre de mon TPE (Travaux Personnels Encadrés) en classe de Première au Lycée, servant de support pour la présentation de notre sujet, en l\'occurence le rôle des rayonnements ionisants dans les mutations génétiques.',
+      date: 'Février 2019',
+      technologiesUsed: {
+        langages: ['HTML', 'CSS', 'Javascript'],
+        editeurs: ['Visual Studio Code']
+      },
+      documents: [
+        {
+          nom: 'Projet Github',
+          type: 'github',
+          lien: 'https://github.com/theoernould/tpe',
+        },
+        {
+          nom: 'Démo',
+          type: 'demo',
+          lien: 'https://theoernould.github.io/tpe/',
         }
       ]
     },
