@@ -1,7 +1,7 @@
 <div class="card">
   <div *ngIf="projet.image || projet.video" class="card-image pt-5">
-    <figure *ngIf="projet.image" class="image is-4by3">
-      <img [src]="projet.image" alt="Image"/>
+    <figure *ngIf="projet.image" class="image">
+      <img src='{{projet.image}}' alt="Image"/>
     </figure>
     <iframe *ngIf="projet.video" width="560" height="315" src="https://www.youtube.com/embed/nOYWxa42C5g" title="YouTube video player" frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

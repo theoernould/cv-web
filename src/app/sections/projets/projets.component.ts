@@ -9,7 +9,21 @@ import {Projet} from "../../models/projet";
 export class ProjetsComponent {
   projets: Projet[] = [
     {
-      id:1,
+      id: 1,
+      image: 'assets/projets/arbscanner.png',
+      titre: 'Détecteur d\'opportunités de spreading',
+      description: 'Interface web permettant de détecter les opportunités de spreading sur le marchés des cryptomonnaies. Le spreading consiste à acquérir un actif sur une plateforme et à le revendre aussitôt sur une autre plateforme à un prix plus élevé afin de réaliser un bénéfice. L\'utilisateur pouvant sélectionner les cryptomonnaies (BTC, ETH, ...) et les plateformes d\'échanges (Binance, Coinbase, ...) et ainsi obtenir une liste des opportunités de spreading.',
+      date: 'Septembre 2022',
+      technologiesUsed: {
+        langages: ['HTML', 'CSS', 'JavaScript', 'TypeScript', 'Java'],
+        frameworks: ['Angular', 'Angular Material', 'Spring Boot'],
+        outils: ['Git', 'Maven'],
+        editeurs: ['IntelliJ IDEA']
+      },
+      documents: []
+    },
+    {
+      id:2,
       image: '',
       titre: 'Chat sécurisé',
       description: 'Application de chat sécurisé avec chiffrement.',
@@ -40,7 +54,7 @@ export class ProjetsComponent {
       ]
     },
     {
-      id: 2,
+      id: 3,
       video: 'https://www.youtube.com/embed/nOYWxa42C5g',
       titre: 'Logiciel de visualisation 3D',
       description: 'Logiciel de visualisation 3D développé en groupe dans le cadre du DUT Informatique. Le but étant de pouvoir visualiser un fichier .ply et d\'y appliquer des transformations géométriques comme la rotation, l\'homothétie, le calcul des ombres, le lissage ou encore le zoom.',
@@ -66,7 +80,7 @@ export class ProjetsComponent {
       ]
     },
     {
-      id: 3,
+      id: 4,
       titre: 'Jeu du moulin',
       description: 'Jeu du moulin développé en groupe dans le cadre du DUT Informatique sous la forme d\'un logiciel. Le but étant de pouvoir jouer au jeu du moulin à deux sur un même ordinateur.',
       date: 'Juin 2021',
@@ -91,7 +105,7 @@ export class ProjetsComponent {
       ]
     },
     {
-      id: 4,
+      id: 5,
       titre: 'Convertisseur de couleurs',
       description: 'Convertisseur de couleurs développé en groupe pendant mon DUT Informatique. L\'objectif est d\'obtenir des teintes de couleur (visibles les unes par par rapport aux autres en nuance de gris) en fonction d\'une couleur donnée.',
       date: 'Juin 2021',
@@ -110,7 +124,7 @@ export class ProjetsComponent {
       ]
     },
     {
-      id: 5,
+      id: 6,
       titre: 'Bataille navale',
       description: 'Le fameux jeu de stratégie recréé en site web dans le cadre de la matière Informatique et Science du Numérique (ISN) en classe Terminale',
       date: 'Octobre 2019',
@@ -132,7 +146,7 @@ export class ProjetsComponent {
       ]
     },
     {
-      id: 6,
+      id: 7,
       titre: 'Qui est-ce ?',
       description: 'Le jeu iconique créé sous la forme d\'un site web dans le cadre de la matière Informatique et Science du Numérique (ISN) en classe de Terminale',
       date: 'Octobre 2019',
@@ -154,7 +168,7 @@ export class ProjetsComponent {
       ]
     },
     {
-      id: 7,
+      id: 8,
       titre: 'Site TPE',
       description: 'Site web réalisé dans le cadre de mon TPE (Travaux Personnels Encadrés) en classe de Première au Lycée, servant de support pour la présentation de notre sujet, en l\'occurence le rôle des rayonnements ionisants dans les mutations génétiques.',
       date: 'Février 2019',
