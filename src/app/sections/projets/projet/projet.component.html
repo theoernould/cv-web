@@ -1,0 +1,46 @@
+<div class="card">
+  <div *ngIf="projet.image || projet.video" class="card-image pt-5">
+    <figure *ngIf="projet.image" class="image is-4by3">
+      <img [src]="projet.image" alt="Image"/>
+    </figure>
+    <iframe *ngIf="projet.video" width="560" height="315" src="https://www.youtube.com/embed/nOYWxa42C5g" title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </div>
+  <div class="card-content">
+    <div class="content">
+      <h2>{{projet.titre}}</h2>
+      <h4>{{projet.date}}</h4>
+      <p class="projet-description">
+        {{projet.description}}
+      </p>
+      <div class="technologies">
+        <div>
+          <span class="is-underlined">Langages :</span>
+          {{joinArray(projet.technologiesUsed.langages)}}
+        </div>
+        <div>
+          <span class="is-underlined">Frameworks :</span>
+          {{joinArray(projet.technologiesUsed.frameworks)}}
+        </div>
+        <div>
+          <span class="is-underlined">Outils :</span>
+          {{joinArray(projet.technologiesUsed.outils)}}
+        </div>
+        <div>
+          <span class="is-underlined">Editeurs de code :</span>
+          {{joinArray(projet.technologiesUsed.editeurs)}}
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="card-footer">
+    <a [href]="document.lien" class="card-footer-item" target="_blank" *ngFor="let document of projet.documents">
+      <span class="mr-3">{{document.nom}}</span>
+      <box-icon *ngIf="document.type === 'lien'" type='solid' name='link-external'></box-icon>
+      <box-icon *ngIf="document.type === 'download'" type='solid' name='download'></box-icon>
+      <box-icon *ngIf="document.type === 'gitlab'" type='logo' name='gitlab'></box-icon>
+      <box-icon *ngIf="document.type === 'github'" type='logo' name='github'></box-icon>
+      <box-icon *ngIf="document.type === 'demo'" name='play-circle'></box-icon>
+    </a>
+  </footer>
+</div>

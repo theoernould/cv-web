@@ -30,7 +30,7 @@ export class ExperiencesComponent {
       poste: 'Stagiaire en développement web',
       dates: 'Avril 2022 - Juin 2022',
       entreprise: 'norsys',
-      description: 'Evolution d’un site web de gestion de stocks pour l’association « Le Vestiaire Solidaire » basée à Marcq-en-Barœul dont l’objectif est de collecter et redistribuer des vêtements pour les personnes dans le besoin. L’interface a été conçue avec l’aide d’Angular et le serveur en Java avec Spring Boot.',
+      description: 'Amélioration d’un site web de gestion de stocks pour l’association « Le Vestiaire Solidaire » basée à Marcq-en-Barœul dont l’objectif est de collecter et redistribuer des vêtements pour les personnes dans le besoin. L’interface a été conçue avec l’aide d’Angular et le serveur en Java avec Spring Boot.',
       technologiesUsed: {
         langages: ['Java', 'TypeScript'],
         frameworks: ['Spring Boot', 'Angular'],

@@ -1,3 +1,6 @@
 <section id="projets" class="section">
   <h1 class="title">Projets</h1>
+  <div class="container">
+    <app-projet *ngFor="let projet of projets" [projet]="projet"></app-projet>
+  </div>
 </section>

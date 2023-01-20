@@ -19,6 +19,7 @@ import {RouterModule, Routes} from "@angular/router";
 import { CompetenceBlocComponent } from './sections/competences/competence-bloc/competence-bloc.component';
 import { ExperiencesComponent } from './sections/experiences/experiences.component';
 import { ExperienceComponent } from './sections/experiences/experience/experience.component';
+import { ProjetComponent } from './sections/projets/projet/projet.component';
 
 const routes: Routes = [
   { path: '', component: ContentComponent },
@@ -37,7 +38,8 @@ const routes: Routes = [
     CompetencesComponent,
     CompetenceBlocComponent,
     ExperiencesComponent,
-    ExperienceComponent
+    ExperienceComponent,
+    ProjetComponent
   ],
   imports: [
     BrowserModule,
