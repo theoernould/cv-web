@@ -4,6 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "heroku-postbuild": "ng build --configuration production && npm install -g && npm install -g http-server-spa",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
